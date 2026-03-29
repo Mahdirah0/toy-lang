@@ -1,6 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --watch src/main.ts"
+    "dev": "deno run --watch src/main.ts",
+    "build:web": "deno run -A scripts/build.ts",
+    "serve": "deno run -A scripts/serve.ts",
+    "playground": "deno task build:web && deno task serve"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"

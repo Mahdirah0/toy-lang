@@ -11,7 +11,7 @@ import type {
   Statement,
   StringLiteral,
   VarDeclaration,
-} from "../src/parser.ts";
+} from "./parser.ts";
 
 export class Environment {
   private variables: Map<string, RuntimeValue> = new Map();
