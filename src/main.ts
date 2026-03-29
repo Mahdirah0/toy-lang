@@ -4,7 +4,7 @@ import { run } from "./evaluator.ts";
 
 const main = async () => {
   const sourceCode = await Deno.readTextFile(
-    new URL("./programs/first.txt", import.meta.url),
+    new URL("./programs/first.xf", import.meta.url),
   );
 
   const tokens = tokenise(sourceCode);
