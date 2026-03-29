@@ -1,0 +1,27 @@
+function add(a, b) {
+  return a + b
+}
+
+let result = add(3, 4)
+print(result)
+
+let x = 10
+
+if (x == 10) {
+  print(42)
+} else {
+  print(0)
+}
+
+function max(a, b) {
+  if (a > b) {
+    return a
+  } else {
+    return b
+  }
+}
+
+print(max(5, 9))
+
+print(3)
+
